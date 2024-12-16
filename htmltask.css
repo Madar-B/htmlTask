@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Основной светло-голубой фон */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4fc3f7; /* Темно-голубой цвет для всей верхней панели */
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff; /* Белый цвет текста для логотипа */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Белый цвет для ссылок */
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #b3e5fc; /* Светло-голубой фон для hero секции */
+    color: #444;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    background-color: #0288d1; /* Темный голубой фон для изображений */
+    color: #fff; /* Цвет текста белый */
+    width: 800px; /* Ширина */
+    height: 400px; /* Высота */
+    margin: 0 auto; /* Центрирование */
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание текста по центру */
+    justify-content: center; /* Горизонтальное выравнивание текста по центру */
+    font-size: 2.5em; /* Размер шрифта текста */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+

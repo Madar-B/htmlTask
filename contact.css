@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Основной светло-голубой фон */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4fc3f7; /* Насыщенный голубой для всей верхней панели */
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff; /* Белый цвет для логотипа */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Белый цвет текста в навигации */
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ширина окна с контентом */
+    max-width: 1200px; /* Максимальная ширина для контента */
+    margin: 0 auto; /* Центрирование контента */
+}
+
+.contact-info {
+    flex: 1; /* Занимает 1 часть от общего пространства */
+    margin-right: 20px; /* Отступ справа для симметрии */
+
+}
+
+.contact-info p {
+    margin-bottom: 10px; /* Отступ между параграфами */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Отступ снизу для заголовка карты */
+}
+
+
+.map-container {
+    flex: 2; /* Занимает 2 части от общего пространства */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Отступ снизу для заголовка карты */
+}
+
